@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--custom javascript file link-->
+    <script src="js.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <!---header section starts here-->
+     <header>
+     <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+
+        <nav class="navbar">
+          <a class="active" href="#home"><i class="fas fa-home"></i>home</a>
+          <a href="#dishes"><i class="fas fa-utensils"></i>dishes</a>
+          <a href="#about"><i class="fas fa-user"></i>about</a>
+          <a href="#menu"><i class="fas fa-book"></i>menu</a>
+          <a href="#review"><i class="fas fa-star"></i>review</a>
+          <a href="#order"><i class="fas fa-phone"></i>order</a>
+        </nav>
+        
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-user"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+     </header>
+
+    <!---header section ends here-->
+     
+    <!--search form starts here-->
+    <form action="" id="search-form">
+        <label for="search-box" class="fas fa-search"></label>
+        <input type="search" placeholder="search here..."name="" id="search-box">
+        <i class="fas fa-times" id="close"></i>
+
+     </form>
+
+
+
+     <!--search form ends here-->
+    
+
+     <!--home section starts here-->
+      
+        <section class="home" id="home">
+            <div class=" swiper home-slider">
+ 
+                <div class=" swiper-wrapper wrapper">
+                  
+                    <div class=" swiper-slide slide">
+                        <div class="content">
+                           <span>our special dish</span>
+                           <h3>jollof rice</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+
+                        <div class="image">
+                        <img src="Images/naija2.png"   alt="">
+ 
+                        </div>
+
+                    </div>
+
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                           <span>our special dish</span>
+                           <h3>tasty burger</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+
+                        <div class="image">
+                        <img src="Images/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg"  alt="">
+ 
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class=" swiper-slide slide">
+                        <div class="content">
+                           <span>our special dish</span>
+                           <h3> african salad</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+
+                        <div class="image">
+                        <img src="Images/naija.png"  alt="">
+ 
+                        </div>
+
+                    </div>
+
+
+                    
+                     
+
+                </div>
+
+                <br><br><div class="swiper-pagination"></div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+     <!-- home sections ends here-->
+
+
+     <!--Dishes section starts here-->
+ 
+     <section class="dishes" id="dishes">
+        <h3 class="sub-heading"> our dishes</h3>
+        <h1 class="heading"> popular dishes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+              <a href="#" class="fas fa-heart"></a>
+             
+              <p>₦10.22</p>
+              <img src="Images/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg" style="width:28rem;height:30rem;" alt="">
+              <h3>tasty burger</h3>
+
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   
+                </div>
+               
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                
+                <p>₦10.22</p>
+                <img src="Images/Simsim Chicken & Pomegranate Shawarma in Simsim Dallas, Texas, USA.jfif" style="width:28rem;height:30rem;" alt="">
+                <h3>tasty burger</h3>
+  
+                <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  
+                  <a href="#" class="btn">add to cart</a>
+                </div>
+
+              
+                <div class="box">
+                  <a href="#" class="fas fa-heart"></a>
+                
+                  <p>₦10.22</p>
+                  <img src="Images/Fried Plantains Recipe with Hot Pepper Sauce.jfif" style="width:28rem;height:30rem;" alt="">
+                  <h3>tasty burger</h3>
+  
+                    <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     
+                  <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    
+                    <p>₦10.32</p>
+                    <img src="Images/My Mum’s Jollof Rice - Zena's Kitchen.jfif" style="width:28rem;height:30rem;" alt="">
+
+                    <h3>tasty burger</h3>
+    
+                      <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                       </div>
+                      
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    
+                    <p>₦10.42</p>
+                    <img src="Images/African Masa Recipe _ Chef Lola's Kitchen.jfif" style="width:28rem;height:30rem;" alt="">
+                    <h3>tasty burger</h3>
+    
+                      <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                   
+                    <p>₦10.22</p>
+                    <img src="Images/Premium Photo _ Fried chicken with french fries and nuggets meal.jfif" style="width:28rem;height:30rem;" alt="">
+                    <h3>tasty burger</h3>
+    
+                      <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+        </div>
+
+
+     </section>
+
+
+
+     <!--Dishes section ends here-->
+
+
+     <!--about section starts here-->
+
+     <section class="about" id="about">
+     <h3 class="sub-heading">about us</h3>
+     <h1 class="heading">why choose us?</h1>
+      
+        <div class="row">
+       
+           <div class="image2">
+           <img src="Images/karly-gomez-rotFzR9lX0E-unsplash.jpg" alt="" style="width: 40rem; height: 40rem;">
+           </div>
+
+            <div class="content">
+               <h3>top notch meals</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi quasi velit eum atque nam sed, labore, commodi, amet deleniti perferendis? Reprehenderit ab voluptate earum quas consequatur officiis voluptas sapiente!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat error eligendi maxime perspiciatis itaque aperiam neque nam, odio, iste expedita corporis magni eaque quibusdam ex consectetur voluptatem maiores numquam.</p>
+            
+             
+           <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-phone"></i>
+                <span>24/7 services</span>
+              </div>
+
+              <div class="icons">
+                <i class="fas fa-naira-sign"></i>
+                <span>easy payment method</span>
+              </div>
+
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>swift delivery</span>
+              </div>
+             
+            </div>
+           
+            </div>
+
+
+
+
+        </div>
+
+
+     </section>
+
+
+
+
+
+     <!--about sections ends here-->
+
+
+
+
+     <!--menu section starts here-->
+
+      <section class="menu" id="menu">
+
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+          
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+            
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+            
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food  <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+    
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+              
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="Images/A tray pack of smallchops.jfif" alt="">
+            
+            </div>
+
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>tasty food   <a href="#" class="fas fa-heart"></a></h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aut. Quisquam vitae quasi molestiae impedit, mollitia eaque libero, fugiat cum doloremque vero iure nostrum et. Veritatis nisi rem atque fugiat!</p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">₦300</span>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+     <!--menu section ends here-->
+
+
+     <!--review section starts here-->
+
+     <section class="review" id="review">
+     
+      <h3 class="sub-heading">customers review</h3>
+      <h1 class="heading">what they say</h1>
+
+      <div class="patrons">
+
+      <div class="customers">
+        <img src="Images/IMG-20240420-WA0005.jpg">
+        <div class="user">
+        <h3>Sammy</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        </div>
+
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi, quaerat molestias veritatis voluptas doloremque, asperiores consequuntur quis, nesciunt totam quos? Omnis ducimus cum suscipit voluptates, tempora molestias ea error.</P>
+
+      </div>
+
+      
+      <div class="customers">
+        <img src="Images/Screenshot (13).png">
+        <div class="user">
+        <h3>polo G</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        </div>
+
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi, quaerat molestias veritatis voluptas doloremque, asperiores consequuntur quis, nesciunt totam quos? Omnis ducimus cum suscipit voluptates, tempora molestias ea error.</P>
+
+      </div>
+
+    
+      <div class="customers">
+        <img src="Images/Screenshot (11).png">
+        <div class="user">
+        <h3>bianca</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        </div>
+
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi, quaerat molestias veritatis voluptas doloremque, asperiores consequuntur quis, nesciunt totam quos? Omnis ducimus cum suscipit voluptates, tempora molestias ea error.</P>
+
+      </div>
+    </div>
+        
+
+         
+
+
+         
+        
+
+       
+
+
+    
+
+
+     </section>
+
+
+     <!--review section ends here-->
+
+     <!--order section starts here-->
+
+     <section class="order" id="order">
+      <h3 class="sub-heading"> place your order</h3>
+      <h1 class="heading">fast and reliable</h1>
+
+      <form action="">
+            <div class="inputbox">
+                <div class="input">
+                  <span>your name</span>
+                  <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                  <span>your number</span>
+                  <input type="number" placeholder="enter your phone number">
+                </div>
+            </div>
+
+            <div class="inputbox">
+              <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="enter your food name">
+              </div>
+              <div class="input">
+                <span>additional food</span>
+                <input type="number" placeholder="extra with food">
+              </div>
+            </div>
+
+            <div class="inputbox">
+              <div class="input">
+                <span>how much</span>
+                <input type="text" placeholder="how many orders">
+              </div>
+              <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local" >
+              </div>
+            </div>
+
+            <div class="inputbox">
+              <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" cols="30" rows="10"></textarea>
+              </div>
+              <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="30" rows="10"></textarea>
+              </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+      </form>
+
+
+
+     </section>
+
+     <!-- order section ends here-->
+
+
+     <!--footer section starts here-->
+      <section class="footer">
+
+        <div class="box-container">
+         
+          <div class="box">
+            <h3>locations</h3>
+            <a href="#">lagos</a>
+            <a href="#">abuja</a>
+            <a href="#">owerri</a>
+            <a href="#">benin</a>
+            <a href="#">porthacout</a>
+            <a href="#">enugu</a>
+          </div>
+          
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">review</a>
+            <a href="#">order</a>
+          </div>
+
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="#">08098567329</a>
+            <a href="#">09078451225</a>
+            <a href="#">08159439613</a>
+            <a href="#">OGsammy@gmail.com</a>
+            <a href="#">derake@gmail.com</a>
+            <a href="#">lagos,nigeria</a>
+          </div>
+
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="#">instagram</a>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">whatsapp</a>
+            <a href="#">telegram</a>
+          </div>
+
+
+        </div>
+
+       <div class="rights">copyright @ 2024 <span> BY OG sammy</span></div>
+
+
+
+      </section>
+     <!-- footer section ends here-->
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--custom javascript file link-->
+    <script src="js.js" defer></script>
+</html>
