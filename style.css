@@ -30,7 +30,7 @@
   
  }
 
-section:nth-child(odd){
+section:nth-child(even){
    background: #eee;
 }
 header{
