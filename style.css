@@ -30,8 +30,8 @@
   
  }
 
-section:nth-child(odd){
-   background: #eee;
+section:nth-child(even){
+  
 }
 header{
     position: fixed;
@@ -275,6 +275,9 @@ height: 55rem;
     text-transform: uppercase;
 }
 
+.dishes{
+    background-color: #eee;
+}
 .dishes .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
@@ -430,7 +433,9 @@ height: 55rem;
     color: var(--black);
 }
 
-
+.menu{
+    background-color: #eee;
+}
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -670,7 +675,6 @@ text-decoration: underline;
 .footer .rights span{
     color: darkgoldenrod;
 }
-
 
 
 
